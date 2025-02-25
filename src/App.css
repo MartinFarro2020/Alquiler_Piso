@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: #09f338;
+  width: 360px;
+  padding: 10px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 345px;
+  background-color: rgb(53, 20, 220);
+  position: relative;
+}
+
+.bloqueuno{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  height:80px ;
+  background-color: #747168; 
+}
+
+.bloquedos{
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  height: 300px;
+}
+
+
+.bloquetres{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: #e1e2e3;
+    
+}
+  
+.bloquecuatro{
+    display: flex;
+    width: 40px;
+    height: 300px;
+    background-color: rgb(247, 241, 241);
+    
+}  
+
+
+
+.image-list{
+  display: flex;
+  max-width: 300px;
+  height: 250px;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+  transform: translateX(10%);
+  z-index: 20;
+  position: absolute;
+  top: 40px;
+  right: 60px;
+}
+
+.image-list .image-item{
+  flex-shrink: 0;
+  width: 100%;
+  object-fit: cover;
+  scroll-snap-align: center;
+}
+
+
+.map{
+  width: 100px;
+  height: 100px;
+}
+
+.container_map{
+  margin-top: 150px;
+}
+
+
+
+
+
+
+
+  
+
+
+
