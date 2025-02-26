@@ -137,16 +137,42 @@
 }
 
 
+.contactame{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.contain_wathsap{
+  display: flex;
+}
+
+
+.container_map{
+  display: flex;
+
+}
+
 .map{
+  display: flex;
+
   width: 100px;
   height: 100px;
 }
 
-.container_map{
-  margin-top: 150px;
+.logo_wathsap{
+  display: flex;
 }
 
-
+.img_wathsap{
+  display: flex;
+  transition-timing-function: ease-in;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
 
 
 
