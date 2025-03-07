@@ -146,27 +146,23 @@
   scroll-snap-align: center;
 }
 
-
-.contactame{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
+.mapa_ubicacion{
+  background-color: yellowgreen;
+  width: 250px;
+  height: 450px;
+  margin: 8rem auto;
 }
-
-
 
 .container_map{
   display: flex;
+  width: 250px;
+  height: 350px;
+
 
 }
 
 .map{
   display: flex;
-
-  width: 100px;
-  height: 100px;
 }
 
 .wathsap-icon{
@@ -247,6 +243,83 @@
   align-items: center;
   gap:5rem;
 }
+
+.mensaje{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 209, 207);
+  text-align: center;
+  border-radius: 20%;
+}
+
+.boton_mensaje{
+  height: 60px;
+  width: 80px;
+}
+
+.boton_mensaje a{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.logo_mensaje{
+  height: 30px;
+  width: 30px;
+}
+
+.mapa_ubicacion{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 150px;
+  width: 250px;
+}
+
+.mail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  width: 300px;
+  height: 310px;
+  margin: 0 2rem;
+  border-style: hidden;
+  border-radius: 5%;
+  color:#ffffff;
+  border-color: #060605;
+  background-color: rgb(52, 87, 129);
+}
+
+.formulario input{
+  display: flex;
+  width: 260px;
+  margin-left: 20px;
+}
+
+.formulario label{
+  display: flex;
+  margin-left: 20px;
+}
+
+.formulario textarea{
+  width: 260px;
+  margin-left: 20px;
+}
+
+.enviar{
+  margin-top: 10px;
+  height: 30px;
+}
+
 
 @keyframes pulso{
   100%{
