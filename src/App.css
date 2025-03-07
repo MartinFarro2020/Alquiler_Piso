@@ -196,7 +196,14 @@
 
 .informacion{
   display: flex;
+  width: 350px;
   gap: 1rem;
+}
+
+.informacion_detalle{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 242, 241);
 }
 
 .informacion h1{
@@ -264,14 +271,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(7, 7, 221);  
+  background-color: rgb(171, 171, 177);  
   
-  margin: 2rem 4rem;
+  margin: 2rem 1rem;
 }
 
 .container_map{
   display: flex;
-  background-color: yellow;
   height: 200px;
   
 }

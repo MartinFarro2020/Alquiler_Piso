@@ -2,7 +2,7 @@ const Detalles = () => {
   
     return(
         <div className="informacion">
-            <div className="inforamacion_detalle">
+            <div className="informacion_detalle">
                 <h1>Alquiler de Piso en Pueblo Mascarat-Altea-Alicante</h1>
                 <h2>Direccion Calle Sorell n°9</h2>
                 <h3>ALQUILER POR LARGA TEMPORADA O CONDICIONES A CONVENIR DE MEDIA ESTANCIA</h3>
