@@ -119,8 +119,6 @@
     
 }  
 
-
-
 .image-list{
   display: flex;
   max-width: 300px;
@@ -146,24 +144,91 @@
   scroll-snap-align: center;
 }
 
-.wathsap-container{
+.mensaje{
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.wathsap-icon{
+
+.informacion{
   display: flex;
+  width: 350px;
+  gap: 1rem;
+}
+
+.informacion_detalle{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 242, 241);
+  border-right-style:outset;
+}
+
+.informacion h1{
+  display: flex;
+  font-size: 17px;
+  color: black;
+  margin: 0 1.2rem;
+}
+
+.informacion h2{
+  display: flex;
+  font-size: 15px;
+  color:#353432;
+  margin: 0 1.2rem;
+}
+
+.informacion h3{
+  display: flex;
+  font-size: 10px;
+  color:#353432;
+  margin: 0 1.2rem;
+}
+
+.pedirinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0.5rem;
+  align-items: center;
+  align-items: center;
+  gap: 9rem;
+  
+}
+
+
+.mensaje{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(188, 188, 186);
+  text-align: center;
+  border-radius: 20%;
+}
+
+.boton_mensaje{
+  font-size: small;
+  height: 40px;
+  width: 60px;
+}
+
+.boton_mensaje a{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.logo_mensaje{
+  height: 20px;
+  width: 20px;
+}
+
+.logo_ubicacion{
   height: 40px;
   width: 40px;
 }
 
-.mensaje{
-  display: flex;
-}
 .pulso{
-  height:40px;
-  width:40px;
+  height:30px;
+  width:30px;
   background: linear-gradient(#f8f8f6,#f5f4f4);
   position: absolute;
   border-radius: 50%;
@@ -194,78 +259,18 @@
   animation: pulso 2s 1s ease-out infinite;
 }
 
-.informacion{
+.wathsap-icon{
   display: flex;
-  width: 350px;
-  gap: 1rem;
-}
-
-.informacion_detalle{
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(238, 242, 241);
-}
-
-.informacion h1{
-  display: flex;
-  font-size: 20px;
-  color: black;
-  margin: 0 1.2rem;
-}
-
-.informacion h2{
-  display: flex;
-  font-size: 17px;
-  color:#353432;
-  margin: 0 1.2rem;
-}
-
-.informacion h3{
-  display: flex;
-  font-size: 10px;
-  color:#353432;
-  margin: 0 1.2rem;
-}
-
-.pedirinfo{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-items: center;
-  gap: 9rem;
-}
-
-
-.mensaje{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(209, 209, 207);
-  text-align: center;
-  border-radius: 20%;
-}
-
-.boton_mensaje{
-  height: 60px;
-  width: 80px;
-}
-
-.boton_mensaje a{
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-.logo_mensaje{
   height: 30px;
   width: 30px;
 }
 
-.logo_ubicacion{
-  height: 50px;
-  width: 50px;
+.wathsap-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .mapa_ubicacion{
   display: flex;
@@ -336,7 +341,7 @@
 
 @keyframes pulso{
   100%{
-    transform: scale(2.0);
+    transform: scale(1.8);
     opacity: .6;
   }
 }
