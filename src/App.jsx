@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-      <Slider />;
-      <Detalles />;
-      <Map />;
-      <Mail />;
+      <Slider />
+      <Detalles />
+      <Map />
+      <Mail />
     </>
   )
 }
