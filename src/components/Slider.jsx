@@ -8,32 +8,38 @@ const Slider = () => {
                 </div>
                 <div className="bloquedos">
                     <div className="bloquetres">
-                        <h4>Piso en la calle no recuerdo 123 Ciudad</h4>
-                        <div className="images-logos">
-                            <div className="logos">
-                                <img src="/images/logo_cama_logo.png"/>
-                                <h3>4 Habs.</h3>
+                        <div className="logos_precio">
+                            <h4>Piso en la calle no recuerdo 123 Ciudad</h4>
+                            <div className="images-logos">
+                                <div className="logos">
+                                  <img src="/images/logo_cama_logo.png"/>
+                                  <h3>4 Habs.</h3>
+                                </div>
+                                <div className="logos">
+                                  <img src="/images/logo_baño_log.png"/>
+                                 <h3>2 baños.</h3>
+                                </div>
+                                <div className="logos">
+                                  <img src="/images/logo_metrocuadrado.png"/>
+                                  <h3>80 m2.</h3>
+                                 </div>
+                                <div className="logos">
+                                    <img src="/images/logo_planta.png"/>
+                                    <h3>2° planta</h3>
+                                </div>
+                                <div className="logos">
+                                    <img src="/images/logo_asensor.png"/>
+                                    <h3>Asensor</h3>
+                                </div>
                             </div>
-                            <div className="logos">
-                                <img src="/images/logo_baño_log.png"/>
-                                <h3>2 baños.</h3>
-                            </div>
-                            <div className="logos">
-                                <img src="/images/logo_metrocuadrado.png"/>
-                                <h3>80 m2.</h3>
-                            </div>
-                            <div className="logos">
-                                <img src="/images/logo_planta.png"/>
-                                <h3>2° planta</h3>
-                            </div>
-                            <div className="logos">
-                                <img src="/images/logo_asensor.png"/>
-                                <h3>Asensor</h3>
-                            </div>
-                            
                         </div>
+                        
                     </div>
-                    <div className="bloquecuatro"></div>
+                    <div className="bloquecuatro">
+                        <div className="precio">
+                            <h1>2000 € </h1>  
+                        </div>   
+                    </div>
                 </div>
             
                 <div className="slider">
