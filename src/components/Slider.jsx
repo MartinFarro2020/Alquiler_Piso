@@ -9,7 +9,7 @@ const Slider = () => {
                 <div className="bloquedos">
                     <div className="bloquetres">
                         <div className="logos_precio">
-                            <h4>Piso en la calle no recuerdo 123 Ciudad</h4>
+                            <h4>Piso en la calle Sorell n° 9 Macarat-ALtea</h4>
                             <div className="images-logos">
                                 <div className="logos">
                                   <img src="/images/logo_cama_logo.png"/>

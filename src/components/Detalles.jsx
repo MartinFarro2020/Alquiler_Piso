@@ -23,7 +23,7 @@ const Detalles = () => {
                 <div className="pulso">
                     
                     <div className="wathsap-container">
-                        <a href="https://wa.me/+34666860022?text=Quiero%20realizar%20un%20una consulta%20web" >
+                        <a href="https://wa.me/+34666860022?text=Quiero%20realizar%20un%20una consulta%20sobre el piso" >
                             <img className="wathsap-icon" src="/images/logonegro.png" alt=""/>
                         </a>
                     </div>
